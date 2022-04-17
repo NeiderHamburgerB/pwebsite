@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http'
 import { Injectable } from '@angular/core'
 import { Observable } from 'rxjs'
-import { environment } from 'src/environments/environment.prod'
 import { Repo } from '../interfaces/projects'
 
 @Injectable({
@@ -12,7 +11,7 @@ export class ProjectsService {
   uri!:string
 
   constructor(private http:HttpClient) {
-    this.uri = environment.git_repos
+    this.uri = 'https://api.github.com/users/NeiderHamburgerB/repos'
   }
 
   getRepos():Observable<Repo[]>{
