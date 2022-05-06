@@ -25,7 +25,7 @@ body {
     height:100px
 }
 .h4{
-  font-size: 1.5em; 
+  font-size: 1.2em; 
   color:rgb(32, 52, 79);
 }
 .active{
@@ -35,7 +35,7 @@ body {
   border: none
 }
 .h4Home{
-    font-size: 4.0em;
+    font-size: 3.0em;
     text-decoration:line-through;
     text-transform: uppercase;
 }
@@ -44,7 +44,7 @@ body {
 }
 .p{
     color:rgba(104, 100, 100, 0.686);
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 .fs{
     background-image: url('../src/assets/4.png');
@@ -58,7 +58,7 @@ body {
   color: rgb(32, 52, 79);
 }
 .hcard{
-  font-size: 2.0em; 
+  font-size: 1.3em; 
   color: rgba(81, 131, 196, 0.686)
 }
 .imgI{
